@@ -68,8 +68,8 @@ Handling of invalid parameters
  * General [error handling rules][error-handling] apply.
 
  * Servers MUST return a valid (HTTP 200) XML response whenever the request has
-   been properly received. Unless HTTP 200 is received, clients are RECOMMENDED
-   to automatically retry the request after some time.
+   been [properly received][bad-cnr-request]. Unless HTTP 200 is received,
+   clients are RECOMMENDED to automatically retry the request after some time.
 
 
 Response
@@ -106,4 +106,5 @@ endpoint of [Incoming Mobilities API][imobilities-api].
 [iias-api]: https://github.com/erasmus-without-paper/ewp-specs-api-iias
 [imobilities-api]: https://github.com/erasmus-without-paper/ewp-specs-api-imobilities
 [cnr-intro]: https://github.com/erasmus-without-paper/ewp-specs-architecture#cnr
+[bad-cnr-request]: https://github.com/erasmus-without-paper/ewp-specs-architecture#bad-cnr-request
 [sec-v2]: https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2
