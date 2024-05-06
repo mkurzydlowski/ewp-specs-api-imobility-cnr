@@ -24,7 +24,7 @@
             This schema is a part of the Erasmus Without Paper project. Before you start
             using it, make sure you have read the general rules described here:
 
-            http://developers.erasmuswithoutpaper.eu/
+            https://developers.erasmuswithoutpaper.eu/
         </xs:documentation>
     </xs:annotation>
 

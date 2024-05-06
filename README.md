@@ -96,7 +96,7 @@ fetching data for all your "live" `omobility_ids` directly from the `get`
 endpoint of [Incoming Mobilities API][imobilities-api].
 
 
-[develhub]: http://developers.erasmuswithoutpaper.eu/
+[develhub]: https://developers.erasmuswithoutpaper.eu/
 [statuses]: https://github.com/erasmus-without-paper/ewp-specs-management#statuses
 [registry-spec]: https://github.com/erasmus-without-paper/ewp-specs-api-registry
 [discovery-api]: https://github.com/erasmus-without-paper/ewp-specs-api-discovery
