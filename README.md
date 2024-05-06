@@ -79,10 +79,7 @@ Safety measures
 
 It is NOT guaranteed that all notifications will be delivered to you promptly.
 Some notifications may also **not reach you at all**, e.g. due to
-implementation errors on the calling institution's server, or the fact that no
-Notification Sender daemon has been implemented there (see
-`<sends-notifications>` element in [Incoming Mobilities API][imobilities-api]'s
-`manifest-entry.xsd`).
+implementation errors on the calling institution's server.
 
 Therefore, you - the sending HEI, the implementer of this CNR API - SHOULD
 periodically verify if your copies are up-to-date, e.g. by periodically
