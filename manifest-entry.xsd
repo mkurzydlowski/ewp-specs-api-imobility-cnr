@@ -49,7 +49,7 @@
                                     policies (as described in the annotations in sec:HttpSecurityOptions).
 
                                     Clients SHOULD consult this element before accessing the endpoint given in the
-                                    `url` element (otherwise, their request might be rejected by the server).
+                                    `url` element (otherwise, the server might reject their request).
                                 </xs:documentation>
                             </xs:annotation>
                         </xs:element>
