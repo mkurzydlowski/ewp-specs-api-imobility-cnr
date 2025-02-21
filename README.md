@@ -15,6 +15,16 @@ implemented by the sending institution if it wants to be notified whenever
 CNR stands for Change Notification Receiver. For a detailed introduction on how
 CNR APIs work, please read [this page][cnr-intro].
 
+If HEI provides any API from the following group:
+* Outgoing Mobilities
+* Outgoing Mobilities CNR
+* Outgoing Mobilities Stats
+* Incoming Mobilities
+* Incoming Mobilities CNR
+* Incoming Mobilities Stats
+
+it must provide all APIs from this group.
+
 
 Request method
 --------------
